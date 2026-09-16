@@ -98,8 +98,13 @@ export function CartSheet() {
               <p className="text-xs text-muted-foreground">
                 Final pricing, taxes and bulk discounts are confirmed by our sales team after you submit your request.
               </p>
-              <Button asChild className="w-full bg-slate-deep text-primary-foreground hover:bg-slate-mid" onClick={closeCart}>
-                <Link href="/request-quote">Request a Quote</Link>
+              <Button
+                render={<Link href="/request-quote" />}
+                nativeButton={false}
+                className="w-full bg-slate-deep text-primary-foreground hover:bg-slate-mid"
+                onClick={closeCart}
+              >
+                Request a Quote
               </Button>
               <Button variant="outline" className="w-full" onClick={closeCart}>
                 Continue Browsing

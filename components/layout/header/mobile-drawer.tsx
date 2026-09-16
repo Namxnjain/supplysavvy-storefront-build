@@ -24,7 +24,7 @@ export function MobileDrawer() {
       <SheetContent side="left" className="w-full max-w-xs">
         <SheetHeader className="border-b border-border">
           <SheetTitle className="flex items-center gap-2">
-            <Image src="/images/brand/supplysavvy-logo.webp" alt="SupplySavvy" width={120} height={28} className="h-6 w-auto" />
+            <Image src="/images/brand/logo.webp" alt="SupplySavvy" width={120} height={28} className="h-6 w-auto" />
           </SheetTitle>
         </SheetHeader>
         <nav className="flex-1 overflow-y-auto px-2 py-2">
@@ -35,7 +35,7 @@ export function MobileDrawer() {
           >
             Home
           </Link>
-          <Accordion type="multiple" className="w-full">
+          <Accordion multiple className="w-full">
             {categories.map((category) => (
               <AccordionItem key={category.slug} value={category.slug} className="border-border">
                 <AccordionTrigger className="px-3 text-sm font-semibold hover:no-underline">

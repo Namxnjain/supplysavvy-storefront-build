@@ -10,7 +10,7 @@ export function Footer() {
         <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-5">
           <div className="lg:col-span-2">
             <Image
-              src="/images/brand/supplysavvy-logo.webp"
+              src="/images/brand/logo.webp"
               alt="SupplySavvy"
               width={160}
               height={38}
