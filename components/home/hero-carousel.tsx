@@ -29,7 +29,7 @@ export function HeroCarousel() {
 
   return (
     <section aria-label="Featured promotions" className="relative overflow-hidden bg-slate-deep">
-      <div className="relative aspect-[16/9] w-full sm:aspect-[21/9] lg:aspect-[2.75/1]">
+      <div className="relative aspect-[2560/1000] w-full sm:aspect-[21/9] lg:aspect-[2.75/1]">
         {slides.map((slide, i) => (
           <div
             key={slide.image}
@@ -45,16 +45,16 @@ export function HeroCarousel() {
               fill
               priority={i === 0}
               sizes="100vw"
-              className="object-cover"
+              className="object-contain sm:object-cover"
             />
           </div>
         ))}
 
-        <div className="absolute inset-0 flex items-end sm:items-center">
-          <div className="mx-auto w-full max-w-[1440px] px-4 pb-6 sm:px-6 sm:pb-0 lg:px-10">
+        <div className="absolute inset-0 hidden items-center sm:flex">
+          <div className="mx-auto w-full max-w-[1440px] px-6 lg:px-10">
             <Link
               href="/products"
-              className="inline-flex items-center gap-2 rounded-md bg-butter px-5 py-2.5 text-sm font-bold text-slate-deep shadow-lg transition-colors hover:bg-butter-dark sm:px-6 sm:py-3 sm:text-base"
+              className="inline-flex items-center gap-2 rounded-md bg-butter px-6 py-3 text-base font-bold text-slate-deep shadow-lg transition-colors hover:bg-butter-dark"
             >
               Shop All Products
             </Link>
@@ -92,6 +92,15 @@ export function HeroCarousel() {
             />
           ))}
         </div>
+      </div>
+
+      <div className="flex justify-center bg-slate-deep px-4 py-4 sm:hidden">
+        <Link
+          href="/products"
+          className="inline-flex items-center gap-2 rounded-md bg-butter px-5 py-2.5 text-sm font-bold text-slate-deep shadow-lg transition-colors hover:bg-butter-dark"
+        >
+          Shop All Products
+        </Link>
       </div>
     </section>
   )
