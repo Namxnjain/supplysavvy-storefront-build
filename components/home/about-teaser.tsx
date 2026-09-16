@@ -17,13 +17,24 @@ export function AboutTeaser() {
         </div>
         <div>
           <p className="mb-1 text-xs font-semibold uppercase tracking-wide text-butter-dark">Our story</p>
-          <h2 className="text-xl font-bold text-foreground sm:text-2xl">About SupplySavvy</h2>
+          <h2 className="text-xl font-bold text-foreground sm:text-2xl">
+            Your One-Stop B2B Partner for Everyday Business Supplies
+          </h2>
           <p className="mt-3 max-w-2xl text-sm leading-relaxed text-muted-foreground sm:text-base">
-            Founded in New Delhi, SupplySavvy started with a simple goal — help offices and
-            institutions source housekeeping, stationery and pantry essentials from one reliable
-            partner instead of a dozen local vendors. Today, we serve corporates, facility
-            managers and small businesses across India with curated catalogues, transparent bulk
-            pricing and dependable delivery.
+            Running a business is easier when all your essential supplies are available from one
+            reliable source. SupplySavvy.com, operated by SupplySavvy India Pvt. Ltd., is an
+            online B2B procurement platform designed to help businesses across India purchase
+            their everyday workplace requirements conveniently and efficiently.
+          </p>
+          <p className="mt-3 max-w-2xl text-sm leading-relaxed text-muted-foreground sm:text-base">
+            Our journey began in 2018 with Sonika Enterprises, founded by Tarun Kaushik. With
+            years of experience in wholesale supply, we understand what businesses need
+            most—reliable products, competitive pricing, convenient ordering, responsive support,
+            and dependable supply.
+          </p>
+          <p className="mt-3 max-w-2xl text-sm leading-relaxed text-muted-foreground sm:text-base">
+            Building on this experience, we launched SupplySavvy.com to bring business procurement
+            online and make sourcing simpler for customers across India.
           </p>
           <Link
             href="/about"
