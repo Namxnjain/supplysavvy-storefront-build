@@ -42,18 +42,20 @@ export default function AboutPage() {
           <p className="mb-1 text-xs font-semibold uppercase tracking-wide text-butter-dark">Our story</p>
           <h1 className="text-2xl font-bold text-foreground sm:text-3xl">About SupplySavvy</h1>
           <p className="mt-4 text-sm leading-relaxed text-muted-foreground sm:text-base">
-            SupplySavvy was founded in New Delhi with a straightforward mission: give offices,
-            institutions and small businesses a single, dependable source for the housekeeping,
-            stationery and pantry supplies they need every single day. What started as a small
-            operation serving a handful of local businesses has grown into a curated catalogue of
-            over 500 essentials, backed by transparent bulk pricing and dependable delivery.
+            Running a business is easier when all your essential supplies are available from one
+            reliable source. SupplySavvy.com, operated by SupplySavvy India Pvt. Ltd., is an
+            online B2B procurement platform designed to help businesses across India purchase
+            their everyday workplace requirements conveniently and efficiently.
           </p>
           <p className="mt-4 text-sm leading-relaxed text-muted-foreground sm:text-base">
-            We work directly with trusted brands and vetted suppliers so that the product you
-            reorder next month is exactly the one that worked well this month. Whether you are
-            managing a single office pantry or coordinating housekeeping supplies across multiple
-            facilities, our team is set up to support recurring, predictable procurement — with
-            GST-compliant invoicing on every order.
+            Our journey began in 2018 with Sonika Enterprises, founded by Tarun Kaushik. With
+            years of experience in wholesale supply, we understand what businesses need
+            most—reliable products, competitive pricing, convenient ordering, responsive support,
+            and dependable supply.
+          </p>
+          <p className="mt-4 text-sm leading-relaxed text-muted-foreground sm:text-base">
+            Building on this experience, we launched SupplySavvy.com to bring business procurement
+            online and make sourcing simpler for customers across India.
           </p>
         </div>
         <div className="relative mx-auto aspect-[4/5] w-full max-w-xs overflow-hidden rounded-md bg-muted">
